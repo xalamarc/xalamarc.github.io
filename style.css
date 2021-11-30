@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: 'M PLUS Code Latin', sans-serif;
+  max-height: 100vh;
+  background-color: #242424;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  width: 80%;
+  height: 500px;
+  margin-top: 15%;
+}
+.timer {
+  position: absolute;
+  top: 5rem;
+  font-size: 5rem;
+  color: #dfd7af;
+  font-weight: bold;
+}
+.quote-text {
+  position: absolute;
+  color: #ada784;
+  font-size: 2.5rem;
+  margin: 20px;
+}
+.quote-input {
+  background-color: black !important;
+  border: 1px solid #fff;
+  color: transparent;
+  background-color: transparent;
+  outline: none;
+  resize: none;
+  text-decoration: none;
+  opacity: 0;
+  width: 500px;
+  height: 500px !important;
+  position: absolute;
+  top: 0;
+}
+
+.correct {
+  color: #fffef9;
+  font-size: 2.5rem;
+}
+.incorrect {
+  color: rgb(165, 68, 68);
+  font-size: 2.5rem;
+  text-decoration: underline;
+}
